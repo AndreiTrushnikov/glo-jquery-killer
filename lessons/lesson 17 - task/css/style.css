@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(165, 213, 241);
+}
+
+.calc-block {
+  background-color: rgb(137, 169, 245);
+  padding: 15px;
+
+}
+.calc-img {
+  max-width: 500px;
+  height: 250px;
+}
+.calc-img > img {
+  max-width: 500px;
+  width: 100%;
+  object-fit: contain;
+  height: 250px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.model-group, .color-group, .tyres-group {
+  margin-bottom: 15px
+}

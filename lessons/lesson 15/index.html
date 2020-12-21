@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson 15</title>
+	<link rel="stylesheet" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../css/material-kit.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container" id="title">
+	<h2>Урок 15</h2>
+		<h3>Делаем собственный слайдер на jQuery</h3>
+		<hr>
+  </div>
+  <div class="container-fluid slider-container">
+		<div class="slider">
+				<div class="viewport">
+						<ul class="sliderwrapper">
+							<li class="slide"><img src="img/1.png" alt="Слайд 1"></li>
+							<li class="slide"><img src="img/2.png" alt="Слайд 2"></li>
+							<li class="slide"><img src="img/3.png" alt="Слайд 3"></li>
+              <li class="slide"><img src="img/4.png" alt="Слайд 4"></li>
+              <!-- <li class="slide"><img src="img/2.png" alt="Слайд 2"></li>
+              <li class="slide"><img src="img/4.png" alt="Слайд 4"></li> -->
+            </ul>
+            <button class="close__button" id="hidden-button">x</button>
+						<div class="btn btn-prev	btn-round btn-primary">&lt;</div>
+						<div class="btn btn-next	btn-round btn-primary">&gt;</div>
+
+						<div class="btns">
+							<div class="slide-nav active"></div>
+							<div class="slide-nav"></div>
+							<div class="slide-nav"></div>
+							<div class="slide-nav"></div>
+						</div>
+				</div>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

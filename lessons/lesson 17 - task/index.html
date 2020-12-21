@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lesson 17 - Task</title>
+</head>
+<body>
+  <div class="container">
+    <h3>Калькулятор для рассчёта стоимости Ferrari</h3>
+    <hr>
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="calc-block">
+          <h4>Введите данные нужной вам модели</h4>
+          <hr>
+          <span class="title">Модель Ferrari</span class="title">
+          <div class="model-group">
+            <select name="model" class="form-control model-choose">
+              <option value="1500000">Ferrari 100</option>
+              <option value="2500000">Ferrari 802</option>
+            </select>
+          </div>
+
+          <span class="title">Выберите цвет</span>
+          <div class="color-group">
+            <select name="color" class="form-control color-choose">
+              <option value="10000" data-color="1" class="yellow">Yellow</option>
+              <option value="20000" data-color="2" class="green">Green</option>
+              <option value="30000" data-color="3" class="red">Red</option>
+            </select>
+          </div>
+
+          <span class="title">Выберите диаметр колеса</span>
+          <div class="tyres-group">
+            <select name="tyres" class="form-control tyres-choose">
+              <option value="30000">R17</option>
+              <option value="40000">R18</option>
+            </select>
+          </div>
+
+        </div>
+      </div> 
+      <!-- // Калькулятор -->
+
+      <div class="col-xs-6">
+        <div class="calc-img">
+          <img src="img/yellow-ferrari.jpg" alt="" id="ferrari-img">
+        </div> 
+        <h4>Итоговая стоимость</h4>
+        <h2><span id="price">0</span> <small>$</small></h2>
+      </div>
+      <!-- Картинка модели -->
+    </div>
+  </div>
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

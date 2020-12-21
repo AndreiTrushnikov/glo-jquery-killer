@@ -1,0 +1,10 @@
+* {
+	transition: all 0.2s;
+}
+body {
+	padding-top: 30px;
+}
+.tab-content {
+	background-color: #f1f1f1;
+	padding: 10px;
+}
